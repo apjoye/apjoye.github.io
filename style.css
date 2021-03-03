@@ -38,6 +38,10 @@ p, a {
 h1 {
 	font-size: 64px;
 	font-weight: 800;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--paolo-veronese-green);
+  /*--carrot-orange*/
+  text-shadow: rgba(241, 143, 1, 0.5) 3px 3px;
 }
 
 h2 {
@@ -49,10 +53,23 @@ h2 {
   text-shadow: rgba(241, 143, 1, 0.5) 3px 3px;
 }
 
-a:hover {
-	text-shadow: rgba(241, 143, 1, 0.8) 1px 1px;
+a {
+  -moz-transition: all .3s ease-in;
+  -o-transition: all .3s ease-in;
+  -webkit-transition: all .3s ease-in;
+  transition: all .3s ease-in;
 }
 
-section:last-child {
-	margin-bottom: 30px;
+a:hover {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: var(--seal-brown);
+	text-shadow: var(--seal-brown) 1px 1px;
+}
+
+.social, .contact, .bio, .skill, .contrib {
+  padding-top:15px;
+}
+
+.contact {
+  padding-bottom: 30px;
 }
