@@ -53,6 +53,15 @@ h2 {
   text-shadow: rgba(241, 143, 1, 0.5) 3px 3px;
 }
 
+h3 {
+	font-size: 24px;
+	font-weight: 600;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: var(--paolo-veronese-green);
+  /*--carrot-orange*/
+  text-shadow: rgba(241, 143, 1, 0.5) 3px 3px;
+}
+
 a {
   -moz-transition: all .3s ease-in;
   -o-transition: all .3s ease-in;
@@ -72,4 +81,10 @@ a:hover {
 
 .contact {
   padding-bottom: 30px;
+}
+
+footer p, footer a {
+  text-align: center;
+  font-size: 12px;
+	font-weight: 400;
 }
