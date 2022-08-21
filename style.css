@@ -22,7 +22,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, p, a {
-	font-family: 'DotGothic16', sans-serif;
+	font-family: 'OpenSans', sans-serif;
 	color: var(--russian-violet);
 }
 
