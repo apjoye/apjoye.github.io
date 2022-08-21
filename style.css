@@ -32,7 +32,7 @@ p, a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: var(--russian-violet);
   /*--carrot-orange*/
-  text-shadow: rgba(166, 99, 1, 0.5) 1px 1px;
+  text-shadow: rgba(166, 99, 1, 0.5) 1.5px 1.5px;
 }
 
 h1 {
