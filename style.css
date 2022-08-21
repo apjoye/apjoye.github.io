@@ -3,7 +3,7 @@
   --russian-violet: rgba(11, 0, 51, 1);
   --seal-brown: rgba(88, 39, 7, 1);
   --carrot-orange: rgba(241, 143, 1, 1);
-  --paolo-veronese-green: rgba(22, 152, 115, 1);
+  --paolo-veronese-green: rgba(19, 130, 99, 1);
 
 	/* CSS Gradient */
 	--gradient-top: linear-gradient(0deg, #fcfc62ff, #0b0033ff, #582707ff, #f18f01ff, #169873ff);
@@ -32,7 +32,7 @@ p, a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: var(--russian-violet);
   /*--carrot-orange*/
-  text-shadow: rgba(241, 143, 1, 0.5) 1px 1px;
+  text-shadow: rgba(166, 99, 1, 0.5) 1px 1px;
 }
 
 h1 {
@@ -41,7 +41,7 @@ h1 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: var(--paolo-veronese-green);
   /*--carrot-orange*/
-  text-shadow: rgba(241, 143, 1, 0.5) 3px 3px;
+  text-shadow: rgba(166, 99, 1, 0.5) 3px 3px;
 }
 
 h2 {
@@ -50,16 +50,16 @@ h2 {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: var(--paolo-veronese-green);
   /*--carrot-orange*/
-  text-shadow: rgba(241, 143, 1, 0.5) 3px 3px;
+  text-shadow: rgba(166, 99, 1, 0.5) 3px 3px;
 }
 
 h3 {
 	font-size: 24px;
 	font-weight: 600;
 	-webkit-background-clip: text;
-	-webkit-text-fill-color: var(--paolo-veronese-green);
+	-webkit-text-fill-color: var(--russian-violet);
   /*--carrot-orange*/
-  text-shadow: rgba(241, 143, 1, 0.5) 3px 3px;
+  text-shadow: rgba(166, 99, 1, 0.5) 3px 3px;
 }
 
 a {
@@ -84,7 +84,11 @@ a:hover {
 }
 
 footer p, footer a {
-  text-align: center;
   font-size: 12px;
 	font-weight: 400;
+}
+
+.divider {
+  height: 3rem;
+  border-width: 1px 0;
 }
