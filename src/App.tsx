@@ -32,6 +32,10 @@ function App() {
 
           <div className="col" id="projects">
             <h2>Projects</h2>
+            <h3>Tank Heaven Game</h3>
+            <ul className="list">
+              <li><a href="https://tank-heaven.vercel.app/" target="_blank">Play Now!</a></li>
+            </ul>
             <h3>City Settlers Game Logic</h3>
             <ul className="list">
               <li><a href="https://my.machinations.io/d/city-settlers-single-city/08635a56536efe24b76895df9fe18ac6a" target="_blank">Machinations.io</a></li>
