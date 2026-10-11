@@ -15,8 +15,6 @@ function App() {
         {' | '}
         <a href="#contrib">Contributions</a>
         {' | '}
-        <a href="https://www.linkedin.com/in/andrewjoye/" target="_blank">LinkedIn</a>
-        {' | '}
         <a href="https://github.com/apjoye" target="_blank">GitHub</a>
         {' | '}
         <a href="mailto:andrewpauljoye@gmail.com">Contact</a>
@@ -25,9 +23,7 @@ function App() {
         <div className="row">
           <div className="col" id="about">
             <h2>About</h2>
-            <p>I'm a software engineer and researcher with more than a decade of experience designing and building collaborative, user-centered technologies across academic and applied research environments. My work has included developing interactive platforms, real-time systems, search and discovery tools, and community-oriented applications that support communication, learning, and engagement. Throughout my career, I've led technical projects, mentored developers, and worked closely with interdisciplinary teams to translate complex ideas and community needs into practical, meaningful solutions. I'm especially interested in how technology can foster collaboration, strengthen communities, and improve access to knowledge and resources.</p>
-            <br />
-            <p>My interests extend beyond software development into games, digital culture, and the social impact of technology. My graduate research explored mentorship, access, and support systems through participatory design, while other work has focused on representation in games, online communities, and the ways people form connections through shared experiences. Whether building software, contributing to discussions about games and culture, or participating in community-driven initiatives, I'm motivated by creating experiences that help people connect, learn, and engage with one another in more meaningful ways.</p>
+            <p>Ex full-stack developer turned librarian. Check out my past work!</p>
           </div>
 
           <div className="col" id="projects">
